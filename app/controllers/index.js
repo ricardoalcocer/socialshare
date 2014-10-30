@@ -13,7 +13,7 @@ function shareImage(e) {
 	//
 
 	// share image
-	require('socialshare').share({
+	require('com.alcoapps.socialshare').share({
 		status 					: 'This is the status to share',
 		image 					: fileToShare.nativePath,
 		androidDialogTitle 		: 'Sharing is caring!!!'

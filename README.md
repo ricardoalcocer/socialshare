@@ -15,7 +15,7 @@ On Android it uses the Native Sharing Intent, which brings up a list of installe
 
 If you want to send an email, set the image property to the Native Path to the image.  If you wish to only send text, simply don't send the image property.
 ```javascript
-require('socialshare').share({
+require('com.alcoapps.socialshare').share({
 	status 					: 'This is the status to share',
 	image 					: fileToShare.nativePath,
 	androidDialogTitle 		: 'Sharing is caring!!!'
