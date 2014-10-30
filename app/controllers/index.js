@@ -22,7 +22,7 @@ function shareImage(e) {
 
 function shareText(e){
 	// share text status
-	require('socialshare').share({
+	require('com.alcoapps.socialshare').share({
 		status 				: 'This is the status to sahre',
 		androidDialogTitle 	: 'Caption!!!'
 	})
