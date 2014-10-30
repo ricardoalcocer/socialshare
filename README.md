@@ -27,6 +27,8 @@ require('socialshare').share({
 ## Dependencies	
 This module requires dl.napp.social for iOS which you can get from [https://github.com/viezel/TiSocial.Framework](https://github.com/viezel/TiSocial.Framework)
 
+## Get it
+You can get it from the [/app/lib](https://github.com/ricardoalcocer/socialshare/tree/master/app/lib) folder.
 
 ## Credits
 This module borrows from from code and ideas by:
