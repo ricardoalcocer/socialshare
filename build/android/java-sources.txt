@@ -1,0 +1,8 @@
+"/Users/ralcocer/Desktop/SocialShare/build/android/gen/android/support/v7/appcompat/R.java"
+"/Users/ralcocer/Desktop/SocialShare/build/android/gen/com/alcoapps/socialshare/ApplicationStylesheet.java"
+"/Users/ralcocer/Desktop/SocialShare/build/android/gen/com/alcoapps/socialshare/AssetCryptImpl.java"
+"/Users/ralcocer/Desktop/SocialShare/build/android/gen/com/alcoapps/socialshare/R.java"
+"/Users/ralcocer/Desktop/SocialShare/build/android/gen/com/alcoapps/socialshare/SocialshareActivity.java"
+"/Users/ralcocer/Desktop/SocialShare/build/android/gen/com/alcoapps/socialshare/SocialshareAppInfo.java"
+"/Users/ralcocer/Desktop/SocialShare/build/android/gen/com/alcoapps/socialshare/SocialshareApplication.java"
+"/Users/ralcocer/Desktop/SocialShare/build/android/gen/ti/modules/titanium/ui/R.java"
