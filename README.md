@@ -25,7 +25,14 @@ require('com.alcoapps.socialshare').share({
 **BOOM!  That's it!  You're sharing!**
 
 ## Dependencies	
-This module requires dl.napp.social for iOS which you can get from [https://github.com/viezel/TiSocial.Framework](https://github.com/viezel/TiSocial.Framework)
+This module requires dk.napp.social for iOS which you can get from [https://github.com/viezel/TiSocial.Framework](https://github.com/viezel/TiSocial.Framework)
+
+
+## Wny more sharing options on Android
+
+Because Android is awesome!
+
+No, really.  The reason is because the "sharing intent" is a method "baked" into the Android SDK, so you simply call it with the data you want to share, and Android will return the installed apps that can handle that type of data.  iOS on the other hand offers some built-in methods, but others need to be added by native code.  The dk.napp.social module does just that, but only for Twitter, Facebook and Weibo (which is only relevant for China users).
 
 ## Get it
 You can get it from the [/app/lib](https://github.com/ricardoalcocer/socialshare/tree/master/app/lib) folder.
