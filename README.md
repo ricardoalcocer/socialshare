@@ -1,9 +1,13 @@
 # SocialShare
 
+
+This library is part of the code included in the book
+![](http://ricardoalcocer.com/wp-content/uploads/2014/06/taia_sm.png)
+
 SocialShare is a CommonJS Module for Titanium that implements cross-platform sharing of text and images over social networks.
 
 ## iOS
-On iOS, the module uses the native sharing Action Sheet and offers options for sharing with Facebook and Twitter (if the native apps are installed), 
+On iOS, the module uses the native sharing Action Sheet and offers options for sharing with Facebook and Twitter (if the native apps are installed),
 plus AirDrop, Text Message, Email and other built-in iOS mechanisms.
 
 ## Android
@@ -24,7 +28,7 @@ require('com.alcoapps.socialshare').share({
 
 **BOOM!  That's it!  You're sharing!**
 
-## Dependencies	
+## Dependencies
 This module requires dk.napp.social for iOS which you can get from [https://github.com/viezel/TiSocial.Framework](https://github.com/viezel/TiSocial.Framework)
 
 
