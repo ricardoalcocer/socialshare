@@ -18,7 +18,7 @@ On Android it uses the Native Sharing Intent, which brings up a list of installe
 
 ## Usage
 
-If you want to send an email, set the image property to the Native Path to the image.  If you wish to only send text, simply don't send the image property.
+If you want to send an image, set the image property to the Native Path to the image.  If you wish to only send text, simply don't send the image property.
 ```javascript
 require('com.alcoapps.socialshare').share({
 	status 					: 'This is the status to share',
@@ -33,7 +33,7 @@ require('com.alcoapps.socialshare').share({
 This module requires dk.napp.social for iOS which you can get from [https://github.com/viezel/TiSocial.Framework](https://github.com/viezel/TiSocial.Framework)
 
 
-## Wny more sharing options on Android
+## Why more sharing options on Android
 
 Because Android is awesome!
 
