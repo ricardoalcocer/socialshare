@@ -3,7 +3,7 @@
 
 This library is part of the code included in the book
 
-![](http://ricardoalcocer.com/wp-content/uploads/2014/06/taia_sm.png)
+![](http://sht.tl/ya57YM)
 
 SocialShare is a CommonJS Module for Titanium that implements cross-platform sharing of text and images over social networks.
 
