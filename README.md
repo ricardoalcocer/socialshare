@@ -29,6 +29,21 @@ require('com.alcoapps.socialshare').share({
 
 **BOOM!  That's it!  You're sharing!**
 
+## The Alloy Widget
+
+To use the Widget, copy it to your widgets folder and declare it as a dependecy in your ```config.json```.  Then to use it, use a similar syntax:
+
+```javascript
+function shareTextWidget(e){
+	// share text status
+	var socialWidget=Alloy.createWidget('com.alcoapps.socialshare');
+	socialWidget.share({
+		status 				: 'This is the status to sahre',
+		androidDialogTitle 	: 'Caption!!!'
+	})
+}
+```
+
 ## Dependencies
 This module requires dk.napp.social for iOS which you can get from [https://github.com/viezel/TiSocial.Framework](https://github.com/viezel/TiSocial.Framework)
 

@@ -2,6 +2,10 @@
 	backgroundColor:"white"
 }
 
+"#newimage[platform=ios]":{
+	 top:20
+}
+
 "Label": {
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,
