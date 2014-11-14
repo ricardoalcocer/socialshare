@@ -59,6 +59,19 @@ No, really.  The reason is because the "sharing intent" is a method "baked" into
 ## Get it
 You can get it from the [/app/lib](https://github.com/ricardoalcocer/socialshare/tree/master/app/lib) folder.
 
+## NOTE
+iOS Sharing **CAN** be achieved from the Titanium core SDK using the DocumentViewer object.
+
+```javascript
+docViewer = Ti.UI.iOS.createDocumentViewer({url:'appicon.png'});
+
+navButton.addEventListener('click', function(){
+    docViewer.show({view:navButton, animated: true});
+});
+```
+
+The code above will effectively show the UIActivityViewController, but will only allow you to send files and not status updates, because it is designed to open documents.
+
 ## Credits
 This module borrows from from code and ideas by:
 
