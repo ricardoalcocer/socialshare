@@ -61,7 +61,7 @@ No, really.  The reason is because the "sharing intent" is a method "baked" into
 The TiSocial.Framework module gets its Twitter and Facebook credentials from iOS and not from the Facebook and Twitter apps.  If the Facebook and/or Twitter icons are not showing in, make sure accounts are added to the iOS social settings.
 
 ## Get it
-You can get it from the [/app/lib](https://github.com/ricardoalcocer/socialshare/tree/master/app/lib) folder.
+You can get it from the [/app/lib](https://github.com/ricardoalcocer/socialshare/tree/master/app/lib) folder or the Widget from the [/app/widgets/com.alcoapps.socialshare](https://github.com/ricardoalcocer/socialshare/tree/master/app/widgets/com.alcoapps.socialshare) folder.
 
 ## NOTE
 iOS Sharing **CAN** be achieved from the Titanium core SDK using the DocumentViewer object.
