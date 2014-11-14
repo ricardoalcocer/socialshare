@@ -47,13 +47,6 @@ function share(args){
 	    console.log("Facebook available: " + Social.isFacebookSupported());
 	    console.log("Twitter available: " + Social.isTwitterSupported());
 
-		var fbAccount;
-		Social.addEventListener("facebookAccount", function(e){
-			console.log("facebookAccount: "+e.success);
-			fbAccount = e.account;
-			console.log(e);
-		});
-
 		Social.addEventListener("complete", function(e){
 			console.log("complete: " + e.success);
 			console.log(e);
