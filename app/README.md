@@ -56,6 +56,10 @@ Because Android is awesome!
 
 No, really.  The reason is because the "sharing intent" is a method "baked" into the Android SDK, so you simply call it with the data you want to share, and Android will return the installed apps that can handle that type of data.  iOS on the other hand offers some built-in methods, but others need to be added by native code.  The dk.napp.social module does just that, but only for Twitter, Facebook and Weibo (which is only relevant for China users).
 
+## Facebook and Twitter not showing even when the apps are installed?
+
+The TiSocial.Framework module gets its Twitter and Facebook credentials from iOS and not from the Facebook and Twitter apps.  If the Facebook and/or Twitter icons are not showing in, make sure accounts are added to the iOS social settings.
+
 ## Get it
 You can get it from the [/app/lib](https://github.com/ricardoalcocer/socialshare/tree/master/app/lib) folder.
 
