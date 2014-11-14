@@ -47,18 +47,6 @@ function share(args){
 	    console.log("Facebook available: " + Social.isFacebookSupported());
 	    console.log("Twitter available: " + Social.isTwitterSupported());
 
-	    // find all Twitter accounts on this phone
-	    if(Social.isRequestTwitterSupported()){ //min iOS6 required
-		    var accounts = [];
-		    Social.addEventListener("accountList", function(e){
-		    	console.log("Accounts:");
-		    	accounts = e.accounts; //accounts
-		    	console.log(accounts);
-		    });
-
-		    Social.twitterAccountList();
-	    }
-
 		var fbAccount;
 		Social.addEventListener("facebookAccount", function(e){
 			console.log("facebookAccount: "+e.success);
