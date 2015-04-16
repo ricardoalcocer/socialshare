@@ -15,6 +15,7 @@
 	image 				: Given as nativePath
 	status 				: The text status to share
 	androidDialogTitle 	: The title of the Andorid share window
+	vide 				: iPad-only.  The view where the PopOver will be pointing to
 */
 function share(args){
 	if (OS_ANDROID){
