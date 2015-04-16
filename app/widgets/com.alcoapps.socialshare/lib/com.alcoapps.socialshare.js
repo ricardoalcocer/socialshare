@@ -81,7 +81,12 @@ function share(args){
 			payload.image = args.image;
 		}
 		if(Social.isActivityViewSupported()){ //min iOS6 required
-			Social.activityView(payload);
+			if (Alloy.isTablet) {
+				payload.view = args.view;
+				Social.activityPopover(payload);
+			}else{
+				Social.activityView(payload);
+			}
 		} else {
 			alert('Sorry...your phone appears to be old-ish...sorry');
 		}

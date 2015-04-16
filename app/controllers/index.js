@@ -16,7 +16,8 @@ function shareImage(e) {
 	require('com.alcoapps.socialshare').share({
 		status 					: 'This is the status to share',
 		image 					: fileToShare.nativePath,
-		androidDialogTitle 		: 'Sharing is caring!!!'
+		androidDialogTitle 		: 'Sharing is caring!!!',
+		view 					: $.label2
 	})
 }
 
@@ -24,7 +25,8 @@ function shareText(e){
 	// share text status
 	require('com.alcoapps.socialshare').share({
 		status 				: 'This is the status to sahre',
-		androidDialogTitle 	: 'Caption!!!'
+		androidDialogTitle 	: 'Caption!!!',
+		view 					: $.label1
 	})
 }
 
@@ -47,7 +49,8 @@ function shareImageWidget(e) {
 	socialWidget.share({
 		status 					: 'This is the status to share',
 		image 					: fileToShare.nativePath,
-		androidDialogTitle 		: 'Sharing is caring!!!'
+		androidDialogTitle 		: 'Sharing is caring!!!',
+		view 					: $.label4
 	})
 }
 
@@ -56,7 +59,8 @@ function shareTextWidget(e){
 	var socialWidget=Alloy.createWidget('com.alcoapps.socialshare');
 	socialWidget.share({
 		status 				: 'This is the status to share',
-		androidDialogTitle 	: 'Caption!!!'
+		androidDialogTitle 	: 'Caption!!!',
+		view 					: $.label3
 	})
 }
 

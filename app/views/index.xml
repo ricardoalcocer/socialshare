@@ -1,10 +1,10 @@
 <Alloy>
 	<Window class="container">
 		<View id="newimage" height="Ti.UI.FILL" width="Ti.UI.FILL" backgroundColor="red" layout="vertical">
-			<Button id="label" color="#fff" onClick="shareText" height="100">Share Text</Button>
-			<Button id="label" color="#fff" onClick="shareImage" height="100">Share Image</Button>
-			<Button id="label" color="#fff" onClick="shareTextWidget" height="100">Share Text (Widget)</Button>
-			<Button id="label" color="#fff" onClick="shareImageWidget" height="100">Share Image (Widget)</Button>
+			<Button id="label1" color="#fff" onClick="shareText" height="100">Share Text</Button>
+			<Button id="label2" color="#fff" onClick="shareImage" height="100">Share Image</Button>
+			<Button id="label3" color="#fff" onClick="shareTextWidget" height="100">Share Text (Widget)</Button>
+			<Button id="label4" color="#fff" onClick="shareImageWidget" height="100">Share Image (Widget)</Button>
 		</View>
 	</Window>
 </Alloy>
