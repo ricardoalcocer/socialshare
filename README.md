@@ -3,9 +3,9 @@
 
 This library is part of the code included in the book
 
-![](http://sht.tl/MVMhgY)
+![](http://sht.tl/ya57YM)
 
-[Get the book today!](http://buildmobileapps.io)
+[Get the book today!](http://bit.ly/alloybook)
 
 SocialShare is a CommonJS Module for Titanium that implements cross-platform sharing of text and images over social networks.
 
@@ -45,6 +45,23 @@ function shareTextWidget(e){
 	})
 }
 ```
+
+## iPad
+
+On iPad, the sharing options are displayed in a PopOver, as shown below.
+
+![](http://drops.ricardoalcocer.com/drops/Screen%20Shot%202015-04-15%20at%206.22.41%20PM-24gpJJiOO3.png)
+
+This PopOver needs to be pointing to some view, and you specify this view using the View property like so:
+
+```javascript
+socialWidget.share({
+	status 				: 'This is the status to sahre',
+	androidDialogTitle 	: 'Caption!!!',
+	view 				: $.shareView
+})
+```
+
 
 ## Dependencies
 This module requires dk.napp.social for iOS which you can get from [https://github.com/viezel/TiSocial.Framework](https://github.com/viezel/TiSocial.Framework)
