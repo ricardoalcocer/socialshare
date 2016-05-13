@@ -1,0 +1,5 @@
+This directory is generated from the "/app/i18n" and "/app/theme/<name>/i18n" directories.
+
+Do not modify any files in this directory. Your changes will be lost on next build.
+
+Please make sure "/i18n" is added to your version control's ignore list (i.e. .gitignore).
