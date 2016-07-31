@@ -51,7 +51,9 @@ function share(args){
 		Social.addEventListener("complete", function(e){
 			console.log("complete: " + e.success);
 			console.log(e);
-
+			if (args.complete && _.isFunction(args.complete)) {
+				args.complete(e);
+			}
 			if (e.platform == "activityView" || e.platform == "activityPopover") {
 				switch (e.activity) {
 					case Social.ACTIVITY_TWITTER:
@@ -68,11 +70,17 @@ function share(args){
 		Social.addEventListener("error", function(e){
 			console.log("error:");
 			console.log(e);
+			if (args.error && _.isFunction(args.error)) {
+				args.error(e);
+			}
 		});
 
 		Social.addEventListener("cancelled", function(e){
 			console.log("cancelled:");
 			console.log(e);
+			if (args.cancelled && _.isFunction(args.cancelled)) {
+				args.cancelled(e);
+			}
 		});
 
 		// do the actual sharing
